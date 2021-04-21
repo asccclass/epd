@@ -1,0 +1,6 @@
+{
+   "WorkingPath": "/home/pi/go/src/github.com/asccclass/epaperclient/",
+   "WiFiInfoURL": "https://t02.w.ascc.net/wlan-ashq-meeting/ashq-meeting-psk.json",
+   "QRCodeServer": "https://t02.w.ascc.net/wlan-ashq-meeting/ashq-meeting-psk.json",
+   "SocketIOServer": ""
+}
