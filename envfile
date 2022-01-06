@@ -1,6 +1,9 @@
 {
-   "WorkingPath": "/home/pi/go/src/github.com/asccclass/epaperclient/",
+   "SystemName": "e-paper client 黑相框",
+   "WorkingPath": "/home/pi/epd/",
    "WiFiInfoURL": "https://t02.w.ascc.net/wlan-ashq-meeting/ashq-meeting-psk.json",
    "QRCodeServer": "https://t02.w.ascc.net/wlan-ashq-meeting/ashq-meeting-psk.json",
-   "SocketIOServer": ""
+   "SocketIOServer": "",
+   "LineNotifyToken": "fD4Dj6x2Ujjjt8IPWwsXtlf5GAKbaNkYuicxS13e4lL",
+   "Version": "V3"
 }

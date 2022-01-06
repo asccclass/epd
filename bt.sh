@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# cd /home/pi/ && sudo ./deviceclient
+# /home/pi/epd/run.sh
+
 hciconfig
 HWID='01 4a 2b 4e 69'
 ADVERTISE="13 02 01 06 03 03 6F FE 0B 16 6F FE 02 ${HWID} 7F 00"
