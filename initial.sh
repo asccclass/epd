@@ -38,3 +38,7 @@ chgrp pi /home/pi/epd/pic/*
 chown pi /home/pi/epd/pic/*
 chgrp pi /home/pi/epd/*
 
+crontab -l > tmpcron
+echo "30 2,7,16 * * * sudo shutdown -r now" >> tmpcron
+crontab tmpcron
+rm -r tmpcron
