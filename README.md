@@ -1,5 +1,13 @@
 # 電子紙公用程式
 
+## Getting Started
+
+```
+wget https://idv.sinica.edu.tw/andyliu/initial.sh
+chmod +x initial.sh
+./initial.sh
+```
+
 ### Feature
 * add V3 version
 
