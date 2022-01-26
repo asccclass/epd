@@ -3,7 +3,7 @@
 ## Getting Started
 
 ```
-wget https://idv.sinica.edu.tw/andyliu/initial.sh
+wget https://ascare.sinica.edu.tw:8443/initial.sh
 chmod +x initial.sh
 ./initial.sh
 ```
