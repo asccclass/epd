@@ -27,10 +27,9 @@ sudo dpkg -i wiringpi-latest.deb
 gpio -v
 rm -f wiringpi-latest.deb
 
-wget https://github.com/asccclass/epd/releases/download/v0.0.1/epd-master.zip
+wget https://github.com/asccclass/epd/releases/download/v0.0.3/epd-master.zip
 unzip epd-master.zip
 mv epd-master epd
-mv epd /home/pi/
 chown pi /home/pi/epd
 chgrp pi /home/pi/epd
 chown pi /home/pi/epd/*
@@ -39,9 +38,11 @@ chown pi /home/pi/epd/pic/*
 chgrp pi /home/pi/epd/*
 
 mkdir /home/pi/.config/autostart
-cp /home/pi/epd/resh.desktop /home/pi/.conifg/autostart
+cp /home/pi/epd/resh.desktop /home/pi/.config/autostart
 
 crontab -l > tmpcron
 echo "30 2,7,16 * * * sudo shutdown -r now" >> tmpcron
 crontab tmpcron
 rm -r tmpcron
+
+echo "Installation finished."
