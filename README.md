@@ -9,7 +9,11 @@ chmod +x initial.sh
 ```
 
 ### Feature
-* add V3 version
+[bug fix]
+ * 修正JSON輸出少一個"錯誤(v0.0.4)
+
+[Feature}
+* 增加將上線資訊送出至 Open Data Server 功能(v0.0.4)
 
 
 ```
