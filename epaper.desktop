@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Wave
+Exec=sh /home/pi/epd/run.sh
+Icon=/home/pi/example.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Application;Development;
+MultipleArgs=false
