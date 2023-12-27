@@ -1,11 +1,24 @@
 {
+<<<<<<< HEAD
    "SystemName": "ePaperClient:4011黑框",
+=======
+   "position": "4104",
+   "SystemName": "ePaperClient:4104大會議室",
+>>>>>>> 1392d7696d3430004efd410d74b2e5b321fa9d0c
    "WorkingPath": "/home/pi/epd/",
-   "WiFiInfoURL": "https://t02.w.ascc.net/wlan-ashq-meeting/ashq-meeting-psk.json",
-   "QRCodeServer": "https://t02.w.ascc.net/wlan-ashq-meeting/ashq-meeting-psk.json",
+   "WiFiInfoURL": "",
+   "QRCodeServer": "",
    "SocketIOServer": "",
+<<<<<<< HEAD
    "LineNotifyToken": "fD4Dj6x2Ujjjt8IPWwsXtlf5GAKbaNkYuicxS13e4lL",
    "DataCenterURL": "https://datahub.its.sinica.edu.tw/datahubcenter",
    "DataCenterClientSecret": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTMxOTA0MDAsImp0aSI6ImVwYXBlciIsImlhdCI6MTY1MDU5ODQwMCwiaXNzIjoib3BlbmRhdGFjZW50ZXIifQ.GaF8aU6WqAMzpSadqXnEaCLQGOZbDvgInRoNz0P-Eis",
+=======
+   "LineNotifyToken": "f5GAKbaNkYuicxS13e4lL",
+   "WifiDevice": "wlan0",
+   "SSEServerURL": "https://111/sitemanager/sendssemessage",
+   "DataCenterURL": "https://000/opendatacenter",
+   "DataCenterClientSecret": "eyJhbGciOiJIUzI1NiIsInR5cCIHAiOjE2NTMxOTA0MDAsImp0aSI6ImVwYXBlciIsImlhdCI6MTY1MDU5ODQwMCwiaXNzIjoib3BlbmRhdGFjZW50ZXIifQ.GaF8aU6WqAMzpSadqXnEaCLQGOZbDvgInRoNz0P-Eis",
+>>>>>>> 1392d7696d3430004efd410d74b2e5b321fa9d0c
    "Version": "V3"
 }
